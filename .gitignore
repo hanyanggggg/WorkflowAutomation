@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Generated reports and caches
+output/*.xlsx
+output/*.xls
+.ocr_cache/
+.ai_cache/
+
+# Potentially sensitive raw data
+input/raw_incidents/*.png
+input/raw_incidents/*.jpg
+input/raw_incidents/*.jpeg
+input/raw_incidents/*.bmp
+input/raw_incidents/*.tif
+input/raw_incidents/*.tiff
+input/raw_incidents/*.msg
+
+# Keep sample text files
+!input/raw_incidents/sample_*.txt
+
+# Trained model artifacts can contain learned information from source data
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+
+# Local notes
+*.log
+local_config.*

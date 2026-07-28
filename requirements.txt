@@ -1,0 +1,7 @@
+pandas
+openpyxl
+xlsxwriter
+pillow
+extract-msg
+scikit-learn
+joblib
